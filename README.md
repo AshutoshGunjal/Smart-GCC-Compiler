@@ -1,4 +1,4 @@
-# hci-soen
+# Smart GCC Compiler
 
 - Self-Adjusting Smart Interface for Program Development using GCC Compiler
 
