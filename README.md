@@ -1,13 +1,18 @@
 # hci-soen
 
-Self-Adjusting Smart Interface for Program Development using GCC Compiler
+- Self-Adjusting Smart Interface for Program Development using GCC Compiler
 
-This project is to design and implement a self-adjusting smart graphical interface for C++ program development using the GCC compiler (let’s call it SmartGCC). Your interface is to be designed for three types of users:
-• Novice user learning programming: need to use compiler options, linking options, execute options and debugging options.
-• Typical Programmer: need to use code generation and code optimization options in addition to the options used by novice users.
-• Expert Developer: need to use the developer options in addition to the options used by typical programmers.
+- Using the GCC compiler, this project is designing and implementing a self-adjusting smart graphical interface for creating C++ programmes. 
+- Your interface should be built for three types of users: 
+  • Inexperienced user learning programming: you will use compiler options, connexion options, execute options and debug options.
+  • Average programmer: in addition to the tools used by beginner users, you need to use code creation and code optimisation methods.
+  • Professional Developer: Apart from the options traditional programmers use the software tools.
 
-
-The SmartGCC interface should have two windows, one showing the program the user is working on and the other showing the result/output from GCC, in addition to all the available options for the user. When SmartGCC is installed, it prompts the user to select the user type and initializes the interface with the menus and commands for the selected user type. The interface for all types of users should also contain a menu item called “All Options” containing all the options that any user can select. Once the user selects the required options, SmartGCC should execute the program using the selected options by calling GCC through an appropriate command line and display the results. Your interface should be made self-adjusting in the sense that when a user performs a command/task from the “All Options” menu which is not included in the interface for his/her user type, the interface will include that command within appropriate menus from that time. Thus, eventually all the commands a user has used in the past will be available in the appropriate menus and can be used efficiently. You should also implement a proof of concept prototype of SmartGCC using GCC in the background.
-
+- The SmartGCC gui will have two windows, one displaying the software on which the user is operating and the other displaying the GCC result/output, in addition to all the user's choices.
+- As SmartGCC is enabled it prompts the user to pick the type of user and initialises the menus and commands interface for the type of user chosen.
+- The gui should also include a menu item called "All Choices" for all user styles, containing all the choices that any user can choose. 
+- Upon selecting the correct options, SmartGCC will use the selected options to execute the programme by calling GCC via the appropriate command line and showing the results. 
+- Your interface will be self-adjusted in the sense that when a user executes a command/task from the "All Options" menu that is not included in the user style interface, the command will be included within the relevant menus from the time onwards. 
+- Thus all the commands that a user has used in the past will finally be available in the correct menus and can be used efficiently. 
+- A proof of concept implementation of SmartGCC should also be implemented using GCC in the context.
 
